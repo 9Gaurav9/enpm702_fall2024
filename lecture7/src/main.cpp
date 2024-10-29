@@ -1,4 +1,32 @@
 
+namespace my_namespace{
+
+class A{
+    public:
+    A():a1_{1 }, a2_{2}
+    {
+
+        //* body of constructor
+    }
+
+    A(int x, int y):a1_{1 }, a2_{2}
+    {
+
+        //* body of constructor
+    }
+
+    private:
+    int a1_;
+    int a2_;
+
+
+}; //class A
+}// namespace my_namespace
+
+int main(){
+    my_namespace::A first;
+    my_namespace::A second(1, 2);
+}
 
 //</>--- code #1
 //=====================
