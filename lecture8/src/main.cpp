@@ -3,15 +3,15 @@
 // //</>--- code #1
 // //=====================
 
-#include <iostream>
-#include <stdexcept>
+// #include <iostream>
+// #include <stdexcept>
 
-int divide(int numerator, int denominator) {
-    if (denominator == 0) {
-        throw std::invalid_argument("Error: Division by zero!");
-    }
-    return numerator / denominator;
-}
+// int divide(int numerator, int denominator) {
+//     if (denominator == 0) {
+//         throw std::invalid_argument("Error: Division by zero!");
+//     }
+//     return numerator / denominator;
+// }
 
 // int main() {
 //     try {
